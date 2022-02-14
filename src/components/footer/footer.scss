@@ -20,12 +20,13 @@
             grid-template-columns: repeat(3, 1fr);
 
             @include mobile {
-                grid-template-columns: repeat(2, 1rf);
+                grid-template-columns: repeat(2, 1fr);
+                margin-left: -15%;
             }
         }
 
         &__menu {
-            @include flex(center, flex-start);
+            @include flex(flex-start, flex-start);
             flex-direction: column;
             margin-top: 1rem;
             margin-left: 7rem;
